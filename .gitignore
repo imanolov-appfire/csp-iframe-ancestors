@@ -1,0 +1,4 @@
+node_modules
+static/hello-world/node_modules/
+static/hello-world/build/
+.env

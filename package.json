@@ -1,0 +1,14 @@
+{
+  "name": "csp-iframe-forge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Forge app that reproduces a frame-ancestors CSP violation when running `forge tunnel` against a Jira site on a custom domain.",
+  "scripts": {
+    "build:ui": "npm run build --prefix static/hello-world",
+    "install:ui": "npm install --prefix static/hello-world"
+  },
+  "dependencies": {
+    "@forge/cli": "^12.18.0"
+  },
+  "license": "ISC"
+}
