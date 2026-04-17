@@ -1,7 +1,6 @@
 app:
   runtime:
     name: nodejs22.x
-  id: ari:cloud:ecosystem::app/2efd4c1e-ce31-4b78-9592-868d31a9d28d
 
 modules:
   jira:projectPage:
@@ -15,7 +14,6 @@ resources:
     path: static/hello-world/build
 
 permissions:
-  scopes: []
   content:
     styles:
       - 'unsafe-inline'

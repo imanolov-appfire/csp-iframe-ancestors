@@ -55,7 +55,7 @@ npm install
 npm install --prefix static/hello-world
 npm run build:ui
 
-forge register                  # if the app id in manifest.yml is not yours
+forge register
 forge install --product jira --site jira.<customer>.com
 forge tunnel
 ```
